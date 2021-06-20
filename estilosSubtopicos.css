@@ -1,0 +1,105 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 500px 20px 180px;
+    grid-template-rows: 100px 20px 210px 20px 100px;
+     
+  }
+  
+  #header {
+      display: flex;
+      flex-direction: column-reverse;
+    grid-area: 1 / 1 / 2 / 4;
+    font-size: large;
+    font-family: Impact
+  }
+  
+  .content {
+    grid-area: 3 / 1 / 4 / 2;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 15px
+  }
+  
+  .sidebar {
+    grid-area: 3 / 3 / 4 / 4;
+    
+  }
+  
+  .footer {
+    grid-area: 5 / 1 / 6 / 4;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  .wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+ .estiloLi {
+    font-size: 12px;
+    color: black;
+    font-family: Tahoma, sans-serif;
+ }
+
+ .img{
+   width: 100%;
+   height: 100%;
+ }
+
+.recomendar :hover {
+  font-size: medium;
+  color: antiquewhite;
+}
+
+p {
+animation-duration: 4s;
+animation-name: aparecer;
+animation-iteration-count: infinite;
+font-family: Verdana;
+font-size: medium;
+}
+
+@keyframes aparecer {
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 3s;
+  }
+}
+
+.divdisplay {
+font-family:  "Dank Mono", ui-monospace, monospace;
+font-size: x-large;
+font-style: oblique;
+justify-content: center;
+display: flex
+}
+
+
+.itemdesc {
+display: flex;
+font-size: medium;
+justify-content: center;
+font-family: Impact
+}
+
+.grid-container {
+  display: grid;
+  grid-template: 275px / auto auto auto;
+  grid-gap: 10px;
+  background-color: darkgreen;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
