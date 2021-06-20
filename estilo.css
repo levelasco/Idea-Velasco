@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(93, 162, 124);
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: ivory;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+.logo{
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li :hover{
+    color: #34a9a1
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba (0, 42, 83, 27);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(red, rgb(44, 160, 44), blue, alpha)
+
+}
+
+.imagenDeLaSemana{
+    width: 800px;
+    position: relative;
+    left: 350px;
+    border: solid white;
+}
+
+h5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.videoDeLaSemana{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+
+.videoDeLaSemana iframe{
+    
+    position: absolute;
+    left: 150px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 80%;
+    width: 80%;
+}
+
+.container--item{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-item{
+
+    font-size: 1rem;
+    border: solid 1px #000000;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(199, 107, 20);
+    padding: 100px;
+}
+
+a{
+
+    color: #000000;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: green;
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    border-radius: 3px;
+    max-width: 50em;
+}
+.media-object {
+    margin-right: 1em;
+    width: 800px;
+    max-width: 20em;
+}
+
+.media-body {
+    flex: 1;
+}
+
+
+.media-heading {
+    margin: 0 0 .5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: small;
+    
+}
+
